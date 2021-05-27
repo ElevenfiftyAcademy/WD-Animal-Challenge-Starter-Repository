@@ -1,0 +1,22 @@
+{
+  "name": "animal-server-challenges",
+  "version": "1.0.0",
+  "description": "Student practice repository on using Sequelize, Express, Node, JSONWebtoken, and BcryptJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "Eleven Fifty Academy",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.6.0",
+    "sequelize": "^6.6.2"
+  }
+}
